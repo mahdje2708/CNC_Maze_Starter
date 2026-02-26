@@ -20,7 +20,7 @@ X2.375,Y0.375 (East)
 X2.375,Y0.875Z (North)
 X3.625,Y0.875 (East)
 X3.625,Y1.375 (North)
-X3.125,Y1.375 (West
+X3.125,Y1.375 (West)
 X3.125,Y2.375 (North)
 X2.625,Y2.375 (East)
 X2.625,Y3.875 (North)
