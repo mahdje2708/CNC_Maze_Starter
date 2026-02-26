@@ -16,7 +16,6 @@ Z0.0			(Move the pen to the paper)
 G91       (Change to Incremental positioning)
 
 (MOVEMENTS TO SOLVE THE MAZE)
-0,0
 x0.0,Y0.3750 (North)
 X2.3750,Y0.0 (East)
 X0.0,Y0.50 (North)
