@@ -1,6 +1,6 @@
 %
-O[your six digit irthdate]  
-([your name] MAZE) 
+O2142011  
+(Djegba MAZE) 
 (Startup Process)
 T1 M06 	 		(Select tool)
 G54 			(Use Work Offset G54)		
@@ -10,13 +10,29 @@ G43 H01 Z1.0 	(Use Tool Offset #1)
 (END Startup Process)
 
 (GO TO THE STARTING POINT AND DROP THE PEN)
-G01 [your xy start position] F12.0		(Go to start position and set Cutting Speed to 12 in/min)
+G01 X0.0 Y0.0 F12.0		(Go to start position and set Cutting Speed to 12 in/min)
 M03 S1000		(Spin the pen for better precision)
 Z0.0			(Move the pen to the paper)
 G91       (Change to Incremental positioning)
 
 (MOVEMENTS TO SOLVE THE MAZE)
-[put the G91 XY coordinate pairs here]
+0,0
+x0.0,Y0.3750 (North)
+X2.3750,Y0.0 (East)
+X0.0,Y0.50 (North)
+X1.250,Y0.0 (East)
+X0.0,Y0.5 (North)
+X-0.50,Y0.0 (West)
+X0.0,Y1.0 (North)
+X-0.50,Y0.0 (West)
+X0.0,Y1.5 0 (North)
+X0.750,Y0.0 (East)
+X0.0,Y0.10 (North)
+X1.250,Y0.0 (East)
+X0.0,Y0.250 (North)
+X0.750,Y0.0 (East)
+X0.0,Y0.375 (North)
+
 
 (END SEQUENCE)
 G00 G53 Z1.0	(Raise the pen) 
