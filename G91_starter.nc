@@ -1,5 +1,5 @@
 %
-O[your six digit birthdate]  
+O[your six digit irthdate]  
 ([your name] MAZE) 
 (Startup Process)
 T1 M06 	 		(Select tool)
